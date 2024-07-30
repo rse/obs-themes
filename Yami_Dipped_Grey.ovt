@@ -1,0 +1,37 @@
+
+@OBSThemeMeta {
+    name:                  'Dipped Grey';
+    id:                    'com.obsproject.Yami.Dipped.Grey';
+    extends:               'com.obsproject.Yami';
+    author:                'Dr. Ralf S. Engelschall';
+    dark:                  'true';
+}
+
+@OBSThemeVars {
+    --grey1:               #5b5b5b;
+    --grey2:               #4e4e4e;
+    --grey3:               #464646;
+    --grey4:               #3c3c3c;
+    --grey5:               #323232;
+    --grey6:               #272727;
+    --grey7:               #1d1d1d;
+    --grey8:               #131313;
+
+    --white1:              #ffffff;
+
+    --primary_lighter:     #5588bb;
+    --primary_light:       #4477aa;
+    --primary:             #336699;
+    --primary_dark:        #225588;
+    --primary_darker:      #114477;
+
+    --palette_link:        #336699;
+    --palette_linkVisited: #336699;
+
+    --text:                #ffffff;
+    --text_light:          #ffffff;
+    --text_muted:          #a0a0a0;
+    --text_disabled:       var(--text_muted);
+    --text_inactive:       var(--text_muted);
+}
+
